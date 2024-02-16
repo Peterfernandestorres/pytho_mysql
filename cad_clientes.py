@@ -1,5 +1,6 @@
 import mysql.connector as mc
 
+
 # Estabelecer s conexao com o banco
 cx = mc.connect (
     host="127.0.0.1",
