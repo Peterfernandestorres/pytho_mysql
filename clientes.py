@@ -11,7 +11,7 @@ conexao = mc.connect(
     host="127.0.0.1",
     port="3784",
     user="root",
-    password="senac@123",
+    password="808",
     database="banco"
 )
 # Estamos testando a conexão, pedindo para 

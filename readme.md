@@ -35,3 +35,18 @@ nome_cliente varchar(50) not null,
 email varchar(100) not null unique,
 telefone varchar(20)
 )
+
+```
+### arquivo de Cadrastro: cad_clientes.py
+
+```python
+import mysql.connector as mc
+
+# Estabelescer a Conexao com o banco
+cx = mc.connect(
+    host="127.0.0.1",
+    port="3784",
+    user="root",
+    password="808",
+    database="banco"
+)
